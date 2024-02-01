@@ -110,6 +110,10 @@ nav a[href="#"] {
     text-indent: 1em;
 }
 
+h3{
+    text-indent: 0;
+}
+
 .contenedor__contacto{
     display: inline-block;
     margin-left: 75px;
@@ -117,8 +121,4 @@ nav a[href="#"] {
 
 .contenedor__contacto p{
     margin-bottom: 15px;
-}
-
-h3{
-    text-indent: 0;
 }
