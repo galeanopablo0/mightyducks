@@ -1,0 +1,17 @@
+.contenedor__fechas{
+    display: flex;
+    margin: 45px auto;
+}
+
+.upcoming__fechas{
+    padding: 10px;
+    margin-bottom: 9px;
+    display: inline-block;
+    margin-left: 250px;
+    color: var(--fuente);
+}
+
+.upcoming__fechas p{
+    margin-left: 18px;
+    display: inline;
+}

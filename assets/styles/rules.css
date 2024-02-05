@@ -1,0 +1,49 @@
+.contenedor__info{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor__info_texto{
+    width: 60%;
+    padding-bottom: 40px;
+}
+
+.contenedor__articulos{
+    padding: 25px;
+}
+
+.contenedor__titulo{
+    padding-top: 15px;
+}
+
+.contenedor__titulo p{
+    text-decoration: underline;
+}
+
+.titulo__info{
+    text-align: center;
+}
+
+li {
+    padding: 13px 0;
+}
+
+.lista__abcd li{
+    list-style: lower-latin;
+    padding: 0;
+}
+
+dd{
+    text-indent: 10px
+}
+
+
+dt{
+    font-weight: bold;
+    text-indent: 0;
+}
+
+dd ul li{
+    text-indent: 10px;
+    margin-left: 40px;
+}

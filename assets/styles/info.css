@@ -1,0 +1,64 @@
+:root{
+    --fuenteLightRules: #f1f1f1;
+}
+
+.contenedor__pagina{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor__contenido{
+    width: 60%;
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+table{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin: 10px 0 10px 30px;
+}
+
+th, tr, td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 8px 15px
+}
+
+th{
+    background-color: #435D6E;
+    color: var(--fuenteLightRules);
+}
+
+.tabla__fecha{
+    background-color: #778B96;
+    color: var(--fuenteLightRules);
+    text-align: center;
+}
+
+.fecha__superior{
+    background-color: #E7DBCA;
+}
+
+.fecha__inferior{
+    background-color: #FEF4E9;
+}
+
+.contenedor__contacto{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__email_phone{
+    display: flex;
+    gap: 65px;
+}
