@@ -63,13 +63,6 @@ nav a[href="#"] {
     background-color: var(--anchor-active);
 }
 
-h2{
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 25px;
-    color: var(--fuente);
-}
-
 .contenedor__imagen .imagen{
     display: block;
     margin: 40px auto;

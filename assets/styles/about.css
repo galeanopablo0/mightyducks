@@ -13,3 +13,9 @@
 .contenedor__articulos h3{
     text-indent: 0;
 }
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+}

@@ -14,3 +14,9 @@
     color: #005aa9;
     text-decoration: none;
 }
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+}

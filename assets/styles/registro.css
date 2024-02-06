@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contenedor__form{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor__form_contenido{
+    width: 60%;
+}
