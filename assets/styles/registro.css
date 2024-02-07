@@ -1,13 +1,140 @@
-h1{
+h1 {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 15px;
 }
 
-.contenedor__form{
+form {
+    padding-bottom: 50px;
+}
+
+.contenedor__form {
     display: flex;
     justify-content: center;
 }
 
-.contenedor__form_contenido{
+.contenedor__form_contenido {
     width: 60%;
+    background-color: #c9c9c9;
+    padding: 30px;
+    border: 2px solid #9b9b9b;
+}
+
+.input__style {
+    background-color: #f5f5f5;
+    border: 1px solid #acacac;
+    border-bottom: 2px solid rgb(14, 13, 13);
+}
+
+.form__superior {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+}
+
+.contenedor__nombreyapellido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.contenedor__nombreyapellido label {
+    padding: 2px 10px;
+}
+
+.contenedor__localizacion {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7px 0;
+}
+
+.contenedor__gradegender {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px 0 12px 0;
+}
+
+.div__gender,
+.div__gradetype {
+    padding: 0 20px;
+}
+
+.div__gender label {
+    padding: 0 3px;
+}
+
+.contenedor__fieldsets fieldset {
+    width: 75%;
+    margin: 12px auto;
+    margin-top: 0;
+    padding: 5px 20px 15px 20px;
+    border: 3px solid #eeeeee;
+    border-radius: 6px;
+    background-color: #dddddd;
+}
+
+.fieldset__contenido {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.fieldset__contenido label {
+    padding: 0 15px;
+}
+
+.fieldset__fila {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.fieldset__fila .numero1,
+.numero2 {
+    padding: 2px;
+}
+
+.talle__columna {
+    display: flex;
+    flex-direction: row;
+}
+
+.tallecolumna1,
+.tallecolumna2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor__permission {
+    padding: 15px;
+}
+
+.contenedor__firma {
+    padding: 40px 15px 15px 15px;
+}
+
+.contenedor__firma label {
+    padding: 0 10px;
+}
+
+.contenedor__button {
+    display: flex;
+    justify-content: end;
+}
+
+.contenedor__button button {
+    background-color: #0275d8;
+    color: rgb(255, 246, 245);
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 2px solid #005baa;
+}
+
+.contenedor__button button:hover {
+    background-color: #0969bd;
+
 }

@@ -1,27 +1,26 @@
-
 /* Todo el trabajo está realizado en una resolución de 1920x1080 */
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     font-family: cursive;
 
     --anchor-active: #71AD47;
     --anchor-off: #4472C4;
 }
 
-.layout{
+.layout {
     width: 60%;
     margin: auto;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
 
-.banner{
+.banner {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -32,11 +31,11 @@
     border: 1px solid black;
 }
 
-.contenedor__imagenes{
-    display: inline-block   ;
+.contenedor__imagenes {
+    display: inline-block;
 }
 
-.logo{
+.logo {
     width: 150px;
     margin: 30px 0 10px 75px;
 }
@@ -46,20 +45,20 @@
     display: block;
 }
 
-header{
+header {
     margin: auto;
     margin-bottom: -0.4%;
 }
 
-header nav{
+header nav {
     position: absolute;
     margin-left: 150px;
     margin-top: 45px;
     display: inline;
 }
 
-header a{
-    border: 1px solid black ;
+header a {
+    border: 1px solid black;
     text-decoration: none;
     color: white;
     background-color: var(--anchor-off);
@@ -68,13 +67,13 @@ header a{
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.3);
 }
 
-h1{
+h1 {
     margin-left: 30px;
     font-size: 40px;
     display: inline;
 }
 
-h2{
+h2 {
     border: 2px solid black;
     text-align: center;
     font-size: 130%;
@@ -84,41 +83,41 @@ nav a[href="#"] {
     background-color: var(--anchor-active);
 }
 
-.contenedor__fechas{
+.contenedor__fechas {
     display: inline-block;
     margin: 30px 0 0 100px;
 }
 
-.upcoming__fechas{
+.upcoming__fechas {
     margin-bottom: 9px;
     display: block;
 }
 
-.upcoming__fechas p{
+.upcoming__fechas p {
     margin-left: 18px;
 }
 
-.contenedor__articulos{
+.contenedor__articulos {
     width: 60%;
     margin-top: 50px;
     margin-right: 100px;
     float: right;
 }
 
-.contenedor__articulos article{
+.contenedor__articulos article {
     margin-bottom: 15px;
     text-indent: 1em;
 }
 
-h3{
+h3 {
     text-indent: 0;
 }
 
-.contenedor__contacto{
+.contenedor__contacto {
     display: inline-block;
     margin-left: 75px;
 }
 
-.contenedor__contacto p{
+.contenedor__contacto p {
     margin-bottom: 15px;
 }
