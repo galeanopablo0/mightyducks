@@ -1,9 +1,9 @@
-.contenedor__fechas{
+.contenedor__fechas {
     display: flex;
     margin: 45px auto;
 }
 
-.upcoming__fechas{
+.upcoming__fechas {
     padding: 10px;
     margin-bottom: 9px;
     display: inline-block;
@@ -11,12 +11,12 @@
     color: var(--fuente);
 }
 
-.upcoming__fechas p{
+.upcoming__fechas p {
     margin-left: 18px;
     display: inline;
 }
 
-h2{
+h2 {
     text-align: center;
     text-decoration: underline;
     margin-top: 25px;

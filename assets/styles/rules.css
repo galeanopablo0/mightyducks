@@ -1,26 +1,26 @@
-.contenedor__info{
+.contenedor__info {
     display: flex;
     justify-content: center;
 }
 
-.contenedor__info_texto{
+.contenedor__info_texto {
     width: 60%;
     padding-bottom: 40px;
 }
 
-.contenedor__articulos{
+.contenedor__articulos {
     padding: 25px;
 }
 
-.contenedor__titulo{
+.contenedor__titulo {
     padding-top: 45px;
 }
 
-.contenedor__titulo p{
+.contenedor__titulo p {
     text-decoration: underline;
 }
 
-.titulo__info{
+.titulo__info {
     text-align: center;
 }
 
@@ -28,22 +28,22 @@ li {
     padding: 13px 0;
 }
 
-.lista__abcd li{
+.lista__abcd li {
     list-style: lower-latin;
     padding: 0;
 }
 
-dd{
+dd {
     text-indent: 10px
 }
 
 
-dt{
+dt {
     font-weight: bold;
     text-indent: 0;
 }
 
-dd ul li{
+dd ul li {
     text-indent: 10px;
     margin-left: 40px;
 }

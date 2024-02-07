@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     font-family: cursive;
     --anchor-active: #0d77d4;
     --anchor-off: #b9b9b9;
@@ -13,7 +13,7 @@
     --borde-logo: #cfcfcf;
 }
 
-body{
+body {
     background-color: var(--background);
 }
 
@@ -24,16 +24,16 @@ header {
     flex-wrap: wrap;
 }
 
-.logo{
+.logo {
     display: block;
     width: 150px;
     border: 2px solid var(--borde-logo);
     padding: 0 16px;
 }
 
-header nav a{
+header nav a {
     display: inline-block;
-    border: 1px solid black ;
+    border: 1px solid black;
     color: var(--fuente);
     margin: 0 5px;
     padding: 3px 22px;
@@ -43,32 +43,33 @@ header nav a{
     background-color: var(--anchor-off);
 }
 
-header nav a:hover{
+header nav a:hover {
     transform: scale(0.97);
     transition: 0.3;
 }
 
-.banner{
+.banner {
     display: block;
     width: 100%;
     height: 480px;
     object-fit: cover;
     border: 1px solid var(--fuente);
-    box-shadow: 0px 10px 14px -14px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 10px 14px -14px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 10px 14px -14px rgba(0,0,0,0.75);
-}       
+    box-shadow: 0px 10px 14px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 10px 14px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 14px -14px rgba(0, 0, 0, 0.75);
+}
 
 nav a[href="#"] {
     background-color: var(--anchor-active);
 }
 
-.contenedor__imagen .imagen{
+.contenedor__imagen .imagen {
     display: block;
     margin: 40px auto;
 }
 
 .imagen {
     width: 300px;
-    box-shadow: 4px 4px 2px 2px black;;
+    box-shadow: 4px 4px 2px 2px black;
+    ;
 }

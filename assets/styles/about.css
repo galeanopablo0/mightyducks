@@ -1,20 +1,20 @@
-.contenedor__articulos{
+.contenedor__articulos {
     width: 60%;
     margin: auto;
     margin-bottom: 30px;
 }
 
-.contenedor__articulos article{
+.contenedor__articulos article {
     color: var(--fuente);
     margin-bottom: 15px;
     text-indent: 1em;
 }
 
-.contenedor__articulos h3{
+.contenedor__articulos h3 {
     text-indent: 0;
 }
 
-h2{
+h2 {
     text-align: center;
     text-decoration: underline;
     margin-top: 25px;

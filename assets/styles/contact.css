@@ -1,4 +1,4 @@
-.contenedor__contacto{
+.contenedor__contacto {
     color: var(--fuente);
     display: flex;
     justify-content: space-around;
@@ -6,16 +6,16 @@
     margin-bottom: 80px;
 }
 
-.contenedor__contacto_contenido p{
+.contenedor__contacto_contenido p {
     margin-bottom: 15px;
 }
 
-.contenedor__contacto_contenido a{
+.contenedor__contacto_contenido a {
     color: #005aa9;
     text-decoration: none;
 }
 
-h2{
+h2 {
     text-align: center;
     text-decoration: underline;
     margin-top: 25px;
